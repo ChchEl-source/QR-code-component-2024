@@ -11,19 +11,25 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding:20px;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-#container {
+body {
   background-color: var(--slate-300);
   font-family: "Outfit", sans-serif;
+}
+
+#container{
   width: 100%;
-  height: 100vh;
+min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  overflow: scroll;
 }
 
 h1 {
