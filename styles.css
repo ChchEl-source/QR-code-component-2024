@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   --white: #fff;
   --slate-300: #d5e1ef;
   --slate-500: #68778d;
